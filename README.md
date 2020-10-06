@@ -4,4 +4,4 @@
 
 A simple Typora theme for writers.
 
-Still making it...
+Put  [smoothwriting.css](https://github.com/nightwind93/SmoothWriting/blob/main/smoothwriting.css) file and [smoothwriting](https://github.com/nightwind93/SmoothWriting/tree/main/smoothwriting) folder to "Theme" folder, then choose theme after restart the program.
