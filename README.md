@@ -1,4 +1,5 @@
-![cover](https://user-images.githubusercontent.com/2960097/95219553-17721a80-0828-11eb-925f-00836e4de586.png)
+![cover](https://user-images.githubusercontent.com/2960097/95231900-5c04b280-0836-11eb-940c-1d5157388a53.png)
+
 
 # SmoothWriting
 
