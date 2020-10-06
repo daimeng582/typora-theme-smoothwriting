@@ -1,2 +1,4 @@
+
+
 # SmoothWriting
-SmoothWriting, simple Typora theme for writers.
+A simple Typora theme for writers.
