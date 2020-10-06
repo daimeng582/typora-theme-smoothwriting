@@ -5,6 +5,13 @@ body,
 	font-family: Robto, Noto Sans SC;
 	font-weight: 400;
 }
+@font-face {
+	font-family: 'Alata';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Alata'), url('./smoothwriting/alata-regular.woff') format('woff');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 h1,
 h2,
 h3,
@@ -208,7 +215,6 @@ table tbody+tbody {
 }
 code, .md-fences {
 	padding: .5em;
-	/*background: #f0f0f0;*/
 	border: 1px solid #ccc;
 	padding: .1em;
 	font-size: 0.9em;
@@ -321,10 +327,13 @@ p.mathjax-block,
 	background: #eee;
 }
 
+#typora-source .CodeMirror-activeline .CodeMirror-linenumber, #typora-source .CodeMirror-linenumber.CodeMirror-linenumber-show {
+	font-family: Alata, Noto Sans SC;
+}
+
 .megamenu-menu-panel .btn {
 	border: 1px solid #ccc;
 }
-
 
 .info-panel-tab-title {
 	font-family: Alata, Noto Sans SC;
@@ -339,11 +348,11 @@ p.mathjax-block,
 }
 
 .info-panel-tab-title:hover {
-	color: #2F80ED;
+	color: #056CF8;
 }
 
 .active-tab-files .info-panel-tab-title[data-localize="Files"], .active-tab-outline .info-panel-tab-title[data-localize="Outline"] {
-	background: #2F80ED;
+	background: #056CF8;
 	color: #fff;
 }
 
@@ -370,7 +379,7 @@ p.mathjax-block,
     height: 52px;
     left: 0px;
     top: 14px;
-    background: #2F80ED;
+    background: #056CF8;
 }
 
 .file-list-item-file-name-part {
@@ -428,7 +437,7 @@ p.mathjax-block,
 }
 
 a, .md-def-url {
-		color: #2F80ED;
+		color: #056CF8;
 }
 
 #write {
@@ -443,6 +452,12 @@ a, .md-def-url {
 #write>h1:first-child {
 		margin-top: 0;
 		padding-top: 0;
+}
+
+.file-tree-node.active > .file-node-background {
+		border-left: 4px solid #056CF8;
+		border-color: #056CF8;
+		background: #F2F5FA;
 }
 
 input {
