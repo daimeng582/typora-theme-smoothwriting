@@ -422,15 +422,28 @@ p.mathjax-block,
 }
 
 #typora-sidebar {
-	border: none;
-	background: #fff;
-	min-width: 120px;
+		border: none;
+		background: #fff;
+		min-width: 120px;
 }
 
 a, .md-def-url {
 		color: #2F80ED;
 }
 
+#write {
+		padding-left: 56px;
+		padding-right: 72px;
+}
+
+#write > h3.md-focus:before {
+    top: 1.5rem;
+}
+
+#write>h1:first-child {
+		margin-top: 0;
+		padding-top: 0;
+}
 
 input {
 		background-color: #F2F5FA;
