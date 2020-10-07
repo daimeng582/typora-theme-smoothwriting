@@ -364,12 +364,12 @@ code, .md-fences {
 /* Chrome 29+ */
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
   .task-list-item input:before {
-    margin-top: -0.2rem;
+    margin-top: 0rem;
   }
 
   .task-list-item input:checked:before,
   .task-list-item input[checked]:before {
-    margin-top: -0.2rem;
+    margin-top: 0rem;
   }
 }
 
@@ -547,10 +547,6 @@ p.mathjax-block,
   overflow: hidden;
   height: 17px;
   opacity: 1;
-}
-
-.task-list-item input {
-  top: 1px;
 }
 
 #typora-sidebar {
