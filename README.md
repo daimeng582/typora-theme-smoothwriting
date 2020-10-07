@@ -10,4 +10,6 @@ Put  [smoothwriting.css](https://github.com/nightwind93/SmoothWriting/blob/main/
 
 把 [smoothwriting.css](https://github.com/nightwind93/SmoothWriting/blob/main/smoothwriting.css) 文件与 [smoothwriting](https://github.com/nightwind93/SmoothWriting/tree/main/smoothwriting) 文件夹一并放入Typora的"Themes"文件夹中，重启程序后，选择主题并使用即可。
 
+Only test theme on Windows, Mac OS and Linux users shloud use it without problem, but there is no exact style for the systems. Welcome to feedback. 
+
 目前只在Windows环境测试，Mac和Linux的系统上，应该可以使用，只是没有针对性的样式设计。欢迎反馈。
