@@ -2,11 +2,15 @@
 
 # SmoothWriting
 
+##English
+
 A simple Typora theme for writers.
 
 Put  [smoothwriting.css](https://github.com/nightwind93/SmoothWriting/blob/main/smoothwriting.css) file and [smoothwriting](https://github.com/nightwind93/SmoothWriting/tree/main/smoothwriting) folder to "Theme" folder, then choose theme and use it after restart the program.
 
 Only test theme on Windows, Mac OS and Linux users shloud use it without problem, but there is no exact style for the systems. Welcome to feedback. 
+
+##中文
 
 为写作者设计的 Typora 主题。
 
