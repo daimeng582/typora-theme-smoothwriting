@@ -471,11 +471,11 @@ p.mathjax-block,
 }
 
 .info-panel-tab-title:hover {
-  color: #056CF8;
+  color: #126BE3;
 }
 
 .active-tab-files .info-panel-tab-title[data-localize="Files"], .active-tab-outline .info-panel-tab-title[data-localize="Outline"] {
-  background: #056CF8;
+  background: #126BE3;
   color: #F7F7F7;
 }
 
@@ -503,7 +503,7 @@ p.mathjax-block,
   height: 52px;
   left: 0px;
   top: 14px;
-  background: #056CF8;
+  background: #126BE3;
 }
 
 .file-list-item-file-name-part {
@@ -539,7 +539,7 @@ p.mathjax-block,
   color: #666674;
   font-family: Roboto, Noto Sans SC;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   text-overflow: ellipsis;
@@ -555,8 +555,13 @@ p.mathjax-block,
   min-width: 120px;
 }
 
+#sidebar-files-menu {
+  border-radius: 0;
+  box-shadow: 0px 0px 16px rgba(11, 17, 27, 0.06), 0px 0px 32px rgba(11, 17, 27, 0.05);
+}
+
 a, .md-def-url {
-  color: #056CF8;
+  color: #126BE3;
 }
 
 #write {
@@ -605,7 +610,7 @@ a, .md-def-url {
 }
 
 .megamenu-menu-list .saved #m-saved i {
-  color: #056CF8;
+  color: #126BE3;
 }
 
 .md-image-input-src-btn, .md-image-input-src-btn:active {
@@ -613,16 +618,17 @@ a, .md-def-url {
   font-size: 14px;
   font-weight: normal;
   line-height: 20px;
-  padding: 3px 6px;
   background: #E8F0FB;
+  transition: .1s ease-in-out background-color;
 }
 
 .md-image-input-src-btn:before {
-  color: #056CF8;
+  color: #126BE3;
+  transition: .1s ease-in-out background-color;
 }
 
 .md-image-input-src-btn:hover {
-  background: #056CF8;
+  background: #126BE3;
 }
 
 .md-image-input-src-btn:hover:before {
@@ -630,7 +636,7 @@ a, .md-def-url {
 }
 
 .md-image-btn.selected, .md-image-btn:hover {
-  background: #056CF8;
+  background: #126BE3;
 }
 
 .md-image-btn.selected:before, .md-image-btn:hover:before {
@@ -648,6 +654,7 @@ a, .md-def-url {
   padding-left: 4px;
   color: #666674;
   line-height: 24px;
+  bottom: -3px;
 }
 
 .md-p .md-image-before-src {
@@ -677,8 +684,7 @@ a, .md-def-url {
 }
 
 .file-tree-node.active>.file-node-background {
-  border-left: 4px solid #056CF8;
-  border-color: #056CF8;
+  border-left: 4px solid #126BE3;
   background: #F2F5FA;
 }
 
