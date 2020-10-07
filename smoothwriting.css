@@ -55,7 +55,6 @@ h1 {
   font-weight: 500;
   font-size: 36px;
   line-height: 56px;
-  text-transform: uppercase;
 }
 
 h2 {
@@ -585,10 +584,20 @@ a, .md-def-url {
   transition: .3s ease-in-out color;
 }
 
+[md-inline=url], [md-inline=link]>.md-content, [md-inline=image]>.md-meta {
+  color: #666674;
+}
+
+
 .md-end-block.md-p.md-focus .md-expand.md-img-loaded>.md-meta {
   display: block !important;
   color: #666674;
 }
+
+.md-img-error .md-meta.md-content {
+  color: #666674;
+}
+
 
 input {
   background-color: #F2F5FA;
