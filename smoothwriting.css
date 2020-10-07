@@ -1,7 +1,7 @@
 html,
 body,
 #write {
-  background: #F7F9FB;
+  background: #F7F7F7;
   font-family: Robto, Noto Sans SC;
   font-weight: 400;
 }
@@ -394,7 +394,7 @@ p.mathjax-block,
 
 .active-tab-files .info-panel-tab-title[data-localize="Files"], .active-tab-outline .info-panel-tab-title[data-localize="Outline"] {
   background: #056CF8;
-  color: #F7F9FB;
+  color: #F7F7F7;
 }
 
 .info-panel-tab-border {
@@ -406,7 +406,7 @@ p.mathjax-block,
   border: none;
   opacity: 1;
   padding: 18px 24px;
-  background: #F7F9FB;
+  background: #F7F7F7;
 }
 
 .file-list-item:not(.active) {
@@ -449,7 +449,7 @@ p.mathjax-block,
 
 .file-list-item.active {
   position: relative;
-  background: #F7F9FB;
+  background: #F7F7F7;
   opacity: 1;
 }
 
@@ -473,7 +473,7 @@ p.mathjax-block,
 
 #typora-sidebar {
   border: none;
-  background: #F7F9FB;
+  background: #F7F7F7;
   min-width: 120px;
 }
 
@@ -496,11 +496,11 @@ a, .md-def-url {
 }
 
 .megamenu-menu {
-  background: #F7F9FB;
+  background: #F7F7F7;
   box-shadow: 0px 0px 16px rgba(11, 17, 27, 0.06), 0px 0px 32px rgba(11, 17, 27, 0.05);
 }
 .megamenu-opened header, #megamenu-content {
-  background: #F7F9FB;
+  background: #F7F7F7;
 }
 .long-btn {
     border: 1px solid #dddfe0;
@@ -523,7 +523,7 @@ a, .md-def-url {
 }
 
 .megamenu-menu-list .saved #m-saved {
-  background: #F7F9FB;
+  background: #F7F7F7;
 }
 
 .megamenu-menu-list .saved #m-saved i {
@@ -548,7 +548,7 @@ a, .md-def-url {
 }
 
 .md-image-input-src-btn:hover:before {
-  color: #F7F9FB;
+  color: #F7F7F7;
 }
 
 .md-image-btn.selected, .md-image-btn:hover {
@@ -556,7 +556,7 @@ a, .md-def-url {
 }
 
 .md-image-btn.selected:before, .md-image-btn:hover:before {
-  color: #F7F9FB;
+  color: #F7F7F7;
 }
 
 .md-image-pick-file-btn {
@@ -627,7 +627,7 @@ input:focus, #file-library-search-input:focus {
 ::-webkit-scrollbar-thumb {
   background: #DADBEE;
   border-radius: 2px !important;
-  border: 6px solid #F7F9FB;
+  border: 6px solid #F7F7F7;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -639,7 +639,7 @@ input:focus, #file-library-search-input:focus {
 }
 
 ::-webkit-scrollbar-track {
-  background: #F7F9FBF;
+  background: #F7F7F7F;
 }
 
 ::-webkit-scrollbar-corner {
@@ -931,7 +931,7 @@ i.ion-android-arrow-back:before {
 }
 
 .icofont-inverse {
-  color: #F7F9FB
+  color: #F7F7F7
 }
 
 .sr-only {
