@@ -14,8 +14,6 @@ Only test theme on Windows, Mac OS and Linux users shloud use it without problem
 
 目前只在Windows环境测试，Mac和Linux的系统上，应该可以使用，只是没有针对性的样式设计。欢迎反馈。
 
-**其他**
+这个主题会继续完善，如果对你有帮助，欢迎 [打赏](https://dun.mianbaoduo.com/@xincreate)
 
-这个主题会继续完善，如果对你有帮助，欢迎打赏~
 
-https://dun.mianbaoduo.com/@xincreate
