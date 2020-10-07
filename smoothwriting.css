@@ -510,9 +510,10 @@ a, .md-def-url {
     border: 1px solid #dddfe0;
     background-color: #f2f5fa;
 }
-.megamenu-menu-panel tbody tr td:hover {
+.megamenu-menu-panel tbody tr td:hover, #recent-file-panel tbody tr:nth-child(2n-1) , #recent-file-panel tbody tr:hover, #recent-file-panel tbody tr:hover td{
   background-color: #f2f5fa;
 }
+
 .megamenu-menu-list:not(.saved) li a:hover, .megamenu-menu-list li a.active {
   background: #f2f5fa;
 }
