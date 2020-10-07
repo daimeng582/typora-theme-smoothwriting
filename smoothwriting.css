@@ -444,6 +444,10 @@ p.mathjax-block,
   border: 1px solid #ccc;
 }
 
+.ty-sidebar-search-panel .searchpanel-search-option-btn {
+    top: 8px;
+}
+
 #md-notification:before {
   top: 14px;
 }
@@ -457,7 +461,7 @@ p.mathjax-block,
 }
 
 .megamenu-menu-panel .btn {
-  border: 1px solid #ccc;
+  border: 1px solid #eee;
 }
 
 .info-panel-tab-title {
