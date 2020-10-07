@@ -2,7 +2,7 @@
 
 # SmoothWriting
 
-##English
+**English**
 
 A simple Typora theme for writers.
 
@@ -10,7 +10,7 @@ Put  [smoothwriting.css](https://github.com/nightwind93/SmoothWriting/blob/main/
 
 Only test theme on Windows, Mac OS and Linux users shloud use it without problem, but there is no exact style for the systems. Welcome to feedback. 
 
-##中文
+**中文**
 
 为写作者设计的 Typora 主题。
 
