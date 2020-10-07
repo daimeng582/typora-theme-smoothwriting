@@ -365,12 +365,14 @@ code, .md-fences {
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
   .task-list-item input:before {
     margin-top: 0rem;
+    transition: .3s ease-in-out background-color;
   }
 
   .task-list-item input:checked:before,
   .task-list-item input[checked]:before {
     margin-top: 0rem;
   }
+
 }
 
 blockquote {
@@ -590,14 +592,14 @@ a, .md-def-url {
 }
 .long-btn:hover {
     border: 1px solid #dddfe0;
-    background-color: #f2f5fa;
+    background-color: #F0F0F0;
 }
 .megamenu-menu-panel tbody tr td:hover, #recent-file-panel tbody tr:nth-child(2n-1) , #recent-file-panel tbody tr:hover, #recent-file-panel tbody tr:hover td{
-  background-color: #f2f5fa;
+  background-color: #F0F0F0;
 }
 
 .megamenu-menu-list:not(.saved) li a:hover, .megamenu-menu-list li a.active {
-  background: #f2f5fa;
+  background: #F0F0F0;
 }
 
 .megamenu-menu-list li a.active, .megamenu-menu-list li a, .megamenu-menu-list li:hover a, .megamenu-menu-list li a.active, .megamenu-menu-list:not(.saved) li a:hover {
@@ -678,6 +680,7 @@ a, .md-def-url {
 }
 
 .md-meta.md-before.md-content span {
+  font-family: Roboto, Noto Sans SC;
   opacity: 1;
   line-height: 24px;
   display: inline-block;
@@ -685,7 +688,7 @@ a, .md-def-url {
 
 .file-tree-node.active>.file-node-background {
   border-left: 4px solid #126BE3;
-  background: #F2F5FA;
+  background: #F0F0F0;
 }
 
 
@@ -714,14 +717,23 @@ a, .md-def-url {
 }
 
 
-#file-library-search-input:focus {
-  background-color: #F2F5FA;
-  border: 1px solid #F2F5FA;
+input, #file-library-search-input {
+  padding: 16px 10px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF !important;
+  box-shadow: 0px 6px 10px rgba(17, 26, 56, 0.06);
+  height: 24px;
 }
 
 #file-library-search-input:focus {
   outline: none !important;
+  background-color: #FFFFFF;
   border: 1px solid #E1E9F6;
+}
+
+.megamenu-menu-header-title-menu,.megamenu-menu-header #megamenu-menu-header-title {
+  opacity: 0;
+  color: transparent;
 }
 
 ::selection {
@@ -952,7 +964,7 @@ i.ion-android-arrow-back:before {
 }
 
 .icofont-border {
-  border: solid .08em #f1f1f1;
+  border: solid .08em #F0F0F0;
   border-radius: .1em;
   padding: .2em .25em .15em
 }
