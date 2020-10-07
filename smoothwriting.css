@@ -183,7 +183,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 28px;
 }
 
 p>.md-image:only-child:not(.md-img-error) img, p>img:only-child {
@@ -428,9 +428,6 @@ p.mathjax-block,
   margin-top: 2px;
 }
 
-.md-image>.md-meta:first-of-type:before {
-  padding-left: 4px;
-}
 
 #typora-source {
   color: #555;
@@ -648,7 +645,40 @@ a, .md-def-url {
     border-left: #0057CD solid 1px;
     background: #0564E4;
 }
+.md-data {
+  transition: .3s ease-in-out opacity;
+}
+.md-image>.md-meta:first-of-type:before, .md-img-error>.md-meta:first-of-type:before {
+  padding-left: 4px;
+  color: #666674;
+  line-height: 24px;
+}
 
+.md-p .md-image-before-src {
+  color: #666674;
+  opacity: 1;
+}
+
+.md-img-loaded>.md-meta:first-of-type:before, .md-img-loaded>.md-meta:first-of-type:before, .md-img-loaded>.md-image-before-src {
+  opacity: 0;
+  transition: .3s ease-in-out color;
+}
+
+.md-focus .md-img-loaded>.md-meta:first-of-type:before, .md-focus .md-img-loaded>.md-image-before-src , .md-focus .md-img-loaded>.md-meta:first-of-type:before, .md-img-loaded>.md-meta:first-of-type:before, .md-img-error>.md-meta:first-of-type:before, .md-img-error>.md-image-before-src {
+  opacity: 1;
+  color: #666674;
+}
+
+.md-img-loaded>.md-meta.md-before.md-content {
+  display: block !important;
+  opacity: 0;
+}
+
+.md-meta.md-before.md-content span {
+  opacity: 1;
+  line-height: 24px;
+  display: inline-block;
+}
 
 .file-tree-node.active>.file-node-background {
   border-left: 4px solid #056CF8;
@@ -656,27 +686,25 @@ a, .md-def-url {
   background: #F2F5FA;
 }
 
-.md-meta.md-before.md-content {
+
+
+
+
+.md-expand {
   display: block !important;
-  color: transparent;
 }
 
-.md-end-block.md-p .md-expand.md-img-loaded>.md-meta {
-  display: block !important;
-  line-height: 24px;
-  height: 24px;
-  color: transparent;
-  transition: .3s ease-in-out color;
-}
 
 [md-inline=url], [md-inline=link]>.md-content, [md-inline=image]>.md-meta {
   color: #666674;
 }
 
 
+
 .md-end-block.md-p.md-focus .md-expand.md-img-loaded>.md-meta {
   display: block !important;
   color: #666674;
+  opacity: 1;
 }
 
 .md-img-error .md-meta.md-content {
@@ -684,12 +712,12 @@ a, .md-def-url {
 }
 
 
-input {
+#file-library-search-input:focus {
   background-color: #F2F5FA;
   border: 1px solid #F2F5FA;
 }
 
-input:focus, #file-library-search-input:focus {
+#file-library-search-input:focus {
   outline: none !important;
   border: 1px solid #E1E9F6;
 }
