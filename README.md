@@ -22,3 +22,8 @@ Only test theme on Windows, Mac OS and Linux users shloud use it without problem
 
 ![Snipaste_2020-10-07_11-39-58](https://user-images.githubusercontent.com/2960097/95285128-a025a080-0892-11eb-8026-535bf7c9afae.png)
 
+其他
+
+这个主题会继续完善，如果对你有帮助，欢迎打赏~
+
+https://dun.mianbaoduo.com/@xincreate
