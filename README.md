@@ -14,15 +14,7 @@ Only test theme on Windows, Mac OS and Linux users shloud use it without problem
 
 目前只在Windows环境测试，Mac和Linux的系统上，应该可以使用，只是没有针对性的样式设计。欢迎反馈。
 
-**Demo**
-
-![Snipaste_2020-10-07_11-39-40](https://user-images.githubusercontent.com/2960097/95285124-9dc34680-0892-11eb-8516-74d6a467e823.png)
-
-![Snipaste_2020-10-07_11-40-22](https://user-images.githubusercontent.com/2960097/95285125-9f8d0a00-0892-11eb-8005-960cae99b8d3.png)
-
-![Snipaste_2020-10-07_11-39-58](https://user-images.githubusercontent.com/2960097/95285128-a025a080-0892-11eb-8026-535bf7c9afae.png)
-
-其他
+**其他**
 
 这个主题会继续完善，如果对你有帮助，欢迎打赏~
 
